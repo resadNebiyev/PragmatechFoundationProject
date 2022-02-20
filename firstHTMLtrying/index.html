@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        th,td {
+          border:1px solid black;
+        }
+        </style>
+</head>
+<body>
+    <h1>this is my first <strong>HTML</strong> lessons</h1>
+    <h3>if you want to see all of the elements <a href="https://www.w3schools.com/">click</a> here</h3>
+    <p><strong>in this lessons i learn some basic html elements</strong> </p>
+    <img src="html.png" alt="hmtl" width="25%" height="30%">
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Resad"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Nebiyev"><br><br>
+        <input type="submit" value="press">
+      </form> 
+      <br>
+      <div>
+        <table style="width:60%">
+            <tr>
+              <th>Ad</th>
+              <th>Soyad</th>
+              <th>Təvəllüd</th>
+            </tr>
+            <tr>
+              <td>Emil</td>
+              <td>Novruzov</td>
+              <td>1996</td>
+            </tr>
+            <tr>
+              <td>Elvin</td>
+              <td>Məmmədov</td>
+              <td>2010</td>
+            </tr>
+          </table>
+      </div>
+      <script>
+          let body = document.body;
+          body.addEventListener("mouseover",myFunction)
+          function myFunction(){
+              body.style.backgroundColor="red"
+              body.style.color="white"
+          }
+      </script>
+</body>
+</html>
