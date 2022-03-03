@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+/*Sidebar section start*/
+#sidebar{
+    width: 300px;
+    height:700px;
+    background-color: #040b14;
+    position: fixed;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction:column;
+}
+.profile{
+    margin:15px 0 30px;
+    text-align: center;
+    color: white;
+}
+.profile img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border: 7px solid #212431;
+}
+.social-icons {
+   text-align: center;
+}
+.social-icons  a{
+    background-color: #212431;
+    padding:7px 10px;
+    border-radius:50%;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    transition: all .4s linear;
+}
+.social-icons a:hover{
+    background-color: rgb(62, 173, 173);
+}
+.menu{
+    box-sizing: border-box;
+    padding-top:25px;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #a8a9b4;
+    padding: 20px 30px;
+    font-size: 15px;
+    text-decoration: none;  
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+.menu ul li a i{
+    font-size: 17px;
+    margin-right:8px;
+}
+.menu ul li a:hover{
+    color: white;
+}
+/*Sidebar section wnd*/
+
+/*Home section start*/
+.container{
+    margin-left:300px;
+    box-sizing: border-box;
+}
+.row{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.home-page img{
+    width: 100%;
+    height: 100%;
+}
+.home-page-text{
+    position: absolute;
+    left:45%;
+    top:20%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+/*Home section end*/
+
+/*About section start*/
+.header h1{
+    font-size: 30px;
+    color:#173b6c;
+}
+.header .border{
+    margin: 15px 0px;
+    width: 60px;
+    border: 2px solid #149ddd;
+}
+.info{
+    display: flex;   
+    padding: 30px 0 100px;
+    justify-content: space-between;
+}
+.info img{
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+}
+.info-user{
+    padding-left: 20px;
+}
+.info-user h1{
+    font-size: 26px;
+    color:#173b6c;
+}
+.info-user p{
+    font-style: italic;
+}
+.info-user-table{ 
+    display: flex;
+    justify-content: space-between;
+    margin-right:10px;
+}
+.table2{
+    margin-right:100px;
+}
+.info-user-table span{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #272829;
+    line-height: 60px;
+}
+.info-user-table h3 i{
+     font-size: 20px;
+     font-weight: 600;   
+     color:#149ddd;
+}
+/*About section end*/
+
+
+/*Skills section start*/
+#skills{
+    background-color:#f5f8fd;
+    padding: 20px 0;
+}
+.skills-table{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.lang{
+    display: flex;
+    justify-content:space-between;
+}
+.skills-table .border{
+    background-color: #dce8f8;
+    border: 1px solid #dce8f8;
+    width:500px;
+    margin:5px 0 15px;
+}
+.skills-table .border2{
+    border: 3px solid #149ddd;
+    width: 500px;
+}
+.skills-table .border-css{
+    width:360px;
+}
+.skills-table .border-js{
+    width:250px;
+}
+.skills-table .border-react{
+    width:250px;
+}
+.skills-table .border-python{
+    width:250px;
+}
+.skills-table .border-sql{
+    width:300px;
+}
+.skills-table .Lang-name{
+    font-size: 12px;
+    font-weight: 600;
+    color: #050d18;
+    font-family:sans-serif;
+    margin-top: 5px;
+}
+/*Skills section end*/
