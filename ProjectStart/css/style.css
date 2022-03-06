@@ -203,7 +203,32 @@ ul{
     padding:20px;
 }
 .education{
-    padding: 15px 0;
+    padding: 15px 10px;
+    border-top: 2px solid;  
+    position: relative;
+}
+.education::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -10px;
+    top: -10px;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+.education::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    right:-5px;
+    top: -10px;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
 }
 .education span{
     background-color:#173b6c;
@@ -281,7 +306,7 @@ ul{
 }
 .text-icon2{
     margin-top: -15px;
-    margin-right:-200px;
+    margin-left: 200px;
     color: #149ddd;
 }
 .box-img{
