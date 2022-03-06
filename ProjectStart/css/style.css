@@ -47,7 +47,6 @@ ul{
     background-color: rgb(62, 173, 173);
     color: #040b14;
 }
-
 .menu{
     box-sizing: border-box;
     padding-top:25px;
@@ -55,11 +54,11 @@ ul{
 .menu ul li a{
     display: inline-block;
     color: #a8a9b4;
-    padding: 20px 30px;
+    padding: 15px 30px;
     font-size: 15px;
     text-decoration: none;  
     margin-bottom: 8px;
-    transition: .1;
+    transition:all .1 linear;
 }
 .menu ul li a i{
     font-size: 17px;
@@ -68,7 +67,9 @@ ul{
 .menu ul li a:hover{
     color: white;
 }
-
+.menu ul li a:hover i{
+    color:rgb(62, 173, 173);
+}
 /*Sidebar section wnd*/
 
 /*Home section start*/
@@ -77,7 +78,7 @@ ul{
     box-sizing: border-box;
 }
 .row{
-    padding: 10px;
+    padding:10px;
     display: flex;
     flex-direction: column;
 }
@@ -146,12 +147,11 @@ ul{
      color:#149ddd;
 }
 /*About section end*/
-
-
 /*Skills section start*/
 #skills{
     background-color:#f5f8fd;
     padding: 20px 0;
+    margin-bottom:50px;
 }
 .skills-table{
     display: flex;
@@ -195,3 +195,206 @@ ul{
     margin-top: 5px;
 }
 /*Skills section end*/
+/*Education section start*/
+.rows{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:20px;
+}
+.education{
+    padding: 15px 0;
+}
+.education span{
+    background-color:#173b6c;
+    padding:2px;
+    color: white;
+}
+.education p{
+    padding: 5px 0;
+    opacity:0.7;
+}
+/*Education section end*/
+/*Portfolio section start*/
+#portfolio{
+    background-color:#f5f8fd;
+    padding: 20px 0;
+    margin: 50px 0px;
+}
+.portfolio-menu{
+    background-color:#fff;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin:25px auto;
+}
+.portfolio-menu ul{
+    display:flex;
+}
+.portfolio-menu ul li a{
+    padding:5px 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;  
+    margin-bottom: 8px;
+    transition:all .2s linear;
+}
+.portfolio-menu ul li a:hover{
+    color:#149ddd;
+}
+.images img{
+    width: 330px;
+    height: 200px;
+    padding: 15px;
+}
+/*Portfolio section end*/
+/*Reviews section start*/
+#reviews{
+    background-color:#f5f8fd;
+    padding: 50px 0;
+}
+.reviews-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reviews-box .box{
+    padding: 20px;
+}
+.reviews-box .box .box-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.box-text{
+    padding: 20px 10px;
+    background-color:white;
+    text-align: center;
+    border-radius: 20px;
+    font-style: italic;
+    color: #272829;
+}
+.text-icon{
+    position: absolute;
+    color:#149ddd;
+}
+.text-icon2{
+    margin-top: -15px;
+    margin-right:-200px;
+    color: #149ddd;
+}
+.box-img{
+    margin-top: 30px;
+    text-align: center;
+}
+.box-img h4{
+    font-family: "Raleway", sans-serif;
+    padding:10px 0 5px;
+}
+.box-img p{
+    color: #999999;
+}
+/*Contact section start*/
+#contact{
+    background-color: #275b74a6;
+    padding-bottom: 50px;
+}
+#contact h1{
+    color:white;
+    margin-top: 10px;
+}
+#header .border{
+    border: 2px solid red;
+}
+.contact-container{
+    padding: 60px;
+    display:flex;
+    flex-direction:row;
+}
+.contact-container .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.contact-container .contact-info .box{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    transition: all .4s linear;
+    margin-bottom: 20px;
+}
+.contact-container .contact-info .box .contact-icon{
+    background-color:#fff;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+.box .contact-icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:black;
+}
+.box .contact-text h3{
+    font-size: 22px;
+    margin-bottom:-10px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.box .contact-text p{
+    margin-top:10px;
+    font-size: 17px;
+    color:white;
+}
+.box:hover i{
+color:rgb(248, 255, 253);
+background-color:#149ddd;  
+}
+.contact-container .contact-form{
+    outline: none;
+    border-radius: 10px;
+    margin-left: 100px;
+    width:600px;
+    padding: 10px;
+    background:#fff;
+}
+.contact-form h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+}
+.contact-form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact-form .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contact-form .button button{
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #173b6c;
+    font-size: 22px;
+    color: white;
+    margin-left:200px;
+    border-radius:100px;
+    transition: all .2s linear;
+}
+.button button:hover{
+    background-color: #149ddd;
+    cursor: pointer;
+}
+/*Contect Section end*/ 
