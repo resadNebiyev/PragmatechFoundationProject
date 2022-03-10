@@ -1,4 +1,5 @@
-*{
+/*reset styles*/
+body{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -9,10 +10,24 @@ ul{
     padding:0;
     list-style-type: none;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#content{
+    position: absolute;
+    left: 300px;
+    box-sizing: border-box;
+    width: calc(100% - 300px);
+    height: 100vh;
+}
 /*Sidebar section start*/
 #sidebar{
     width: 300px;
-    height:700vh;
+    height:100vh;
     background-color: #040b14;
     position: fixed;
 }
@@ -73,23 +88,20 @@ ul{
 /*Sidebar section wnd*/
 
 /*Home section start*/
+
 .container{
-    margin-left:300px;
-    box-sizing: border-box;
-}
-.row{
-    padding:10px;
+    padding:0px 15px;
     display: flex;
     flex-direction: column;
 }
 .home-page img{
     width: 100%;
-    height: 100%;
-}
+    height: 100vh;
+} 
 .home-page-text{
     position: absolute;
-    left:45%;
-    top:20%;
+    left:30%;
+    top:1%;
     font-size: 25px;
     color: white;
     text-align: center;
@@ -196,15 +208,17 @@ ul{
 }
 /*Skills section end*/
 /*Education section start*/
-.rows{
+.education-rows{
     display:flex;
     flex-direction: row;
     justify-content:space-between;
     padding:20px;
+    position: relative;
 }
 .education{
+    box-sizing: border-box;
     padding: 15px 10px;
-    border-top: 2px solid;  
+    border-left: 2px solid #1f5297;  
     position: relative;
 }
 .education::before{
@@ -213,22 +227,11 @@ ul{
     width: 16px;
     height: 16px;
     border-radius: 50px;
-    left: -10px;
-    top: -10px;
-    background: #fff;
+    top:-9px;
+    left:-11px;
+    background:white;
     border: 2px solid #1f5297;
-}
-.education::after{
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    right:-5px;
-    top: -10px;
-    background: #fff;
-    border: 2px solid #1f5297;
-}
+}   
 .education span{
     background-color:#173b6c;
     padding:2px;
@@ -236,7 +239,9 @@ ul{
 }
 .education p{
     padding: 5px 0;
-    opacity:0.7;
+    opacity:0.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 /*Education section end*/
 /*Portfolio section start*/
@@ -365,7 +370,7 @@ ul{
 /*Contact section start*/
 #contact{
     background-color: #275b74a6;
-    padding-bottom: 50px;
+    height: 100vh;
 }
 #contact h1{
     color:white;
@@ -375,9 +380,9 @@ ul{
     border: 2px solid red;
 }
 .contact-container{
-    padding: 60px;
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
 }
 .contact-container .contact-info{
     display: flex;
@@ -390,7 +395,6 @@ ul{
     flex-direction:row;
     align-items: center;
     transition: all .4s linear;
-    margin-bottom: 20px;
 }
 .contact-container .contact-info .box .contact-icon{
     background-color:#fff;
@@ -428,7 +432,7 @@ background-color:#149ddd;
     border-radius: 10px;
     margin-left: 100px;
     width:600px;
-    padding: 10px;
+    padding: 15px;
     background:#fff;
 }
 .contact-form h2{
@@ -463,5 +467,9 @@ background-color:#149ddd;
 .button button:hover{
     background-color: #149ddd;
     cursor: pointer;
+}
+.map{
+    width: 100%;
+    height: 100%;
 }
 /*Contect Section end*/ 
