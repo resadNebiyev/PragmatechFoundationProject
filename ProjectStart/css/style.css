@@ -52,6 +52,7 @@ body {
     height: 130px;
     border-radius: 50%;
     border: 7px solid #212431;
+    object-fit: cover;
 }
 
 .social-icons {
@@ -157,6 +158,7 @@ body {
     width: 250px;
     height: 250px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .info-user {
@@ -446,6 +448,7 @@ body {
 /*Contact section start*/
 #contact {
     background-color: #275b74a6;
+    
 }
 
 #contact h1 {
@@ -466,7 +469,7 @@ body {
 .contact-row-section {
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding:20px 5px;
 }
 
 .contact .contact-info {
