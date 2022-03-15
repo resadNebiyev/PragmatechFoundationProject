@@ -87,6 +87,7 @@ body {
     text-decoration: none;
     margin-bottom: 8px;
     transition: all .1 linear;
+    cursor: pointer;
 }
 
 .menu ul li a i {
@@ -105,6 +106,16 @@ body {
 /*Sidebar section wnd*/
 
 /*Home section start*/
+#home::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.8;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -125,22 +136,42 @@ body {
 .home-page img {
     width: 100%;
     height: 100vh;
+    object-fit: cover;
 }
 
 .home-page-text {
+    width: 55%;
     position: absolute;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
-    text-align: center;
-    padding: 25px 0;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;   
+    margin-top: 160px;
 }
-
+.home-page-text h1,p{
+    margin-bottom:0;
+}
+.home-page-text span{
+    color: #C49B66;
+}
 /*Home section end*/
 
 /*About section start*/
+#about{
+    padding:100px 0;
+}
 .header h1 {
     font-size: 30px;
     color: #173b6c;
+    margin: 0;
+    padding: 0;
+}
+#about p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .header .border {
@@ -151,7 +182,7 @@ body {
 
 .info {
     display: flex;
-    padding: 30px 0;
+    justify-content: space-between;
 }
 
 .info img {
@@ -176,12 +207,10 @@ body {
 
 .info-user-table {
     display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
 }
 
 .table2 {
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .info-user-table span {
@@ -259,6 +288,7 @@ body {
 
 /*Skills section end*/
 /*Education section start*/
+
 .education-rows {
     display: flex;
     flex-direction: row;
@@ -389,7 +419,7 @@ body {
 }
 
 /*Portfolio section end*/
-/*Reviews section start*/
+/*Testimonials section start*/
 #reviews {
     background-color: #f5f8fd;
     padding: 50px 0;
@@ -446,14 +476,14 @@ body {
 }
 
 /*Contact section start*/
-#contact {
-    background-color: #275b74a6;
-    
-}
+#contact{
+    background: linear-gradient(#141e30,#243b55);
+    padding: 80px 10px;
 
+}
 #contact h1 {
     color: white;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #header .border {
@@ -509,12 +539,14 @@ body {
     margin-bottom: -10px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: 500;
+    color: #149ddd;
 }
 
 .box .contact-text p {
     margin-top: 10px;
     font-size: 17px;
     color: white;
+    border-radius: 10px;
 }
 
 .box:hover i {
@@ -528,12 +560,12 @@ body {
     margin-left: 100px;
     width: 600px;
     padding: 15px;
-    background: #fff;
+    background: rgba(0,0,0,0.6);
 }
 
 .contact-form h2 {
     font-size: 30px;
-    color: #333;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -542,7 +574,10 @@ body {
     width: 100%;
     margin-top: 10px;
 }
-
+.contact-form ::placeholder{
+    color: #03e9f4;
+    opacity: 0.4;
+}
 .contact-form .inputBox input {
     width: 100%;
     padding: 5px 0;
@@ -550,9 +585,11 @@ body {
     margin: 10px 0;
     border: none;
     border-bottom: 2px solid #333;
-    outline: none;
+    background: transparent;
 }
-
+textarea{
+    background: transparent;
+}
 .contact-form .button button {
     margin: 10px auto;
     padding: 5px 10px;
@@ -572,6 +609,7 @@ body {
 .map {
     width: 100%;
     height: 100%;
+    padding: 20px 0;
 }
 
 /*Contect Section end*/
