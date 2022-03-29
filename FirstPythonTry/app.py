@@ -3,4 +3,4 @@ def write(x,y):
         x+=1
         print(x)
         write(x,y)  
-write(0,10)
+write(0,10) 
