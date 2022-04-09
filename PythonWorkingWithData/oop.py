@@ -19,12 +19,10 @@ def ShowAllUser():
         
  # datani delete elemek       
 def deletedata():
-    x = input("adi daxil edin: ")
     for user in users:
+        x = input("adi daxil edin: ")
         if user == x:
-            users.pop(users.index(user)) 
-        
-        
+            users.remove(user)        
 while True:
     programMenyusu="""
     - Qeydiyyat üçün 1 yaz
@@ -44,4 +42,4 @@ while True:
         break
     else:
         print('Qərarınızı anlaşılmayan qərardır.Təkrar cəhd edin')
-        
+print(users)
