@@ -1,1 +1,1 @@
-[link]{https://www.hackerrank.com/neffresad}
+https://www.hackerrank.com/neffresad
