@@ -1,0 +1,40 @@
+Eleanor                  Taylor                   Fizik                    58
+Darcey                   Parker                   Fizik                    30
+Amara Allen              Eloise                   Kimya Müh               49
+Arabella                 Wallace                  Bilgisayar Müh          54
+Brynn                    Thomas                   Kimya Müh               54
+Bailey Gill              River                    Fizik                    73
+Brook                    Kaur                     Matematik Müh           52
+James                    Harper                   Bilgisayar Müh          55
+John                     Hunter                   Fizik                    38
+Robert                   Harper                   Kimya                    63
+William                  Hussain                  Fizik Müh               47
+Richard                  Jeff                     Matematik                32
+Charles Booth            Hamish                   Bilgisayar Müh          40
+Thomas James             Zachary                  Gıda Müh               66
+Daniel                   Porter                   Fizik Müh               47
+Mark Conor               Smith                    Kimya Müh               81
+Steven                   Johnson                  Fizik                    65
+Martin                   Hank                     Bilgisayar Müh          58
+George                   Aston                    Kimya Müh               55
+Kenneth                  Rogers                   Fizik                    35
+Tim                      Jack                     Matematik Müh           47
+Edward Frankie           Adams                    Fizik                    67
+Brian                    John                     Kimya                    61
+Ronald                   Tate                     Bilgisayar Müh          49
+Anthony                  Casper                   Fizik Müh               43
+Kevin Maxwell            Kennedy                  Matematik                52
+Glen                     Francis                  Fizik                    63
+Lee                      Fletcher                 Bilgisayar Müh          52
+Jo                       Khan                     Matematik Müh           23
+Bev                      Cunningham               Kimya Müh               47
+Phoenix                  Phillips                 Matematik                60
+Amalia                   Atkinson                 Fizik Müh               46
+Marley Sienna            Robertson                Bilgisayar Müh          68
+Rose Jasmine             Francis                  Matematik                69
+Lara                     Mccarthy                 Kimya Müh               59
+Jemima                   Fox                      Matematik Müh           35
+Blossom                  Cooper                   Bilgisayar Müh          63
+Lily Rose                Kelly                    Matematik                62
+Gabe                     Wells                    Bilgisayar Müh          54
+Taylor                   Evans                    Kimya Müh               52
